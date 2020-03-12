@@ -7,6 +7,7 @@ import java.util.LinkedList;
 public class Graph {
     int numberOfVertexes;
     LinkedList<Integer>[]adjacencyList;
+
     Graph(int numberOfVertexes)
     {
         this.numberOfVertexes=numberOfVertexes;
